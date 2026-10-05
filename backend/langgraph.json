@@ -1,0 +1,12 @@
+{
+  "python_version": "3.12",
+  "dependencies": ["."],
+  "graphs": {
+    "ingestion_graph": "./src/ingestion_graph/graph.py:graph",
+    "retrieval_graph": "./src/retrieval_graph/graph.py:graph"
+  },
+  "http": {
+    "app": "./src/webapp.py:app"
+  },
+  "env": ".env"
+}
